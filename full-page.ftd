@@ -1,0 +1,15 @@
+-- import: fifthtry.github.io/elegant as elegant
+-- import: fifthtry.github.io/resume/sample as s
+
+
+
+
+
+
+
+
+
+
+
+-- elegant.full-page:
+resume: $s.john-doe

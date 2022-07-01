@@ -6,5 +6,16 @@ zip: github.com/fifthtry/elegant/archive/refs/heads/main.zip
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
 -- fpm.dependency: fifthtry.github.io/resume
 
-
+-- fpm.auto-import: fpm
 -- fpm.auto-import: ds
+-- fpm.auto-import: fifthtry.github.io/elegant/FPM/config
+
+-- fpm.sitemap:
+
+# Home: /index.html
+
+# With-toc: /ds-sample/
+- Sample Toc Item: /ds-sample/
+/- Howto: /-/fifthtry.github.io/resume/how-to/
+  name: onepage
+# Full Page: /full-page/

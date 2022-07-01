@@ -4,5 +4,7 @@
 zip: github.com/fifthtry/elegant/archive/refs/heads/main.zip
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
+-- fpm.dependency: fifthtry.github.io/resume
+
 
 -- fpm.auto-import: ds

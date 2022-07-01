@@ -197,6 +197,9 @@ name: $obj.username
 $loop$: $profile as $obj
 
 
+
+
+
 -- ftd.column profile-card:
 optional caption name:
 optional string url:
@@ -235,6 +238,7 @@ color: $fpm.color.main.text
 --- container: show-container
 
 --- ftd.text: $name
+if: $url is null
 role: $fpm.type.fine-print
 color: $fpm.color.main.text
 

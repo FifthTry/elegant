@@ -66,7 +66,6 @@ weight: 700
 
 
 
-
 -- ds.page:
 
 --- show-resume:
@@ -158,6 +157,7 @@ profile: $profile
 
 
 
+
 -- ftd.row contact-card-desktop:
 padding-vertical: $fpm.space.space-6
 padding-horizontal: $fpm.space.space-6
@@ -195,6 +195,11 @@ title: $phone
 url: $obj.url
 name: $obj.username
 $loop$: $profile as $obj
+
+
+
+
+
 
 
 
@@ -343,6 +348,8 @@ role: $fpm.type.fine-print
 url: $obj.url
 name: $obj.username
 $loop$: $profile as $obj
+
+
 
 
 
@@ -517,7 +524,6 @@ email: $obj.email-id
 phone: $obj.phone-no
 reference: $obj.reference
 $loop$: $resume.reference as $obj
-
 
 
 
@@ -1094,7 +1100,6 @@ color: $fpm.color.main.text
 
 --- container: education-container
 
-
 --- ftd.row:
 padding-bottom if not $is-mobile: $fpm.space.space-2
 spacing: 8
@@ -1138,8 +1143,6 @@ color: $fpm.color.main.text
 if: $score is not null
 role: $fpm.type.fine-print
 color: $fpm.color.main.text
-
-
 
 
 
@@ -1197,10 +1200,6 @@ email: $email
 position: $position
 company: $company
 reference: $reference
-
-
-
-
 
 
 
@@ -1282,6 +1281,8 @@ if: $reference is not null
 text: $reference
 role: $fpm.type.fine-print
 color: $fpm.color.main.text
+
+
 
 
 
@@ -1457,7 +1458,6 @@ keyword: $keyword
 entity: $entity
 type: $type
 
-
 --- project-card-data-mobile: $name
 if: $is-mobile
 url: $url
@@ -1469,7 +1469,6 @@ endDate: $endDate
 keyword: $keyword
 entity: $entity
 type: $type
-
 
 
 
